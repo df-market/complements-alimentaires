@@ -81,7 +81,7 @@ h1 {
     margin: 0;
 }
 hero {
-    background-image: url("images/image-wrap.jpg");
+    background-image: url("../images/image-wrap.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

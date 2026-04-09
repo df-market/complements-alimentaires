@@ -76,8 +76,9 @@ footer {
     color: white;
     padding: 15px;
 }
-.h1 {
-    font-size: 32px;
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
     margin: 0;
 }
 .hero {
@@ -97,6 +98,7 @@ footer {
     
 }
 .overlay {
+    background-color: rgba(26, 72, 28, 0.8)
     padding: 40px;
     border-radius: 10px;
     text-align: center;

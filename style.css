@@ -81,7 +81,7 @@ h1 {
     margin: 0;
 }
 hero {
-    background-image: url('../images/image-wrap.jpg');
+    background-image: url("images/image-wrap.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -96,7 +96,7 @@ hero {
     text-align: center;
     color: white;
 }
-.btn {
+.cta-btn {
     background-color: #25D366;
     color: white;
     padding: 10px 20px;

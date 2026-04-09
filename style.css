@@ -80,29 +80,28 @@ h1 {
     font-size: 32px;
     margin: 0;
 }
-hero {
+.hero {
+    position: relative;
+}
+.hero::before {
     background-image: url("../images/image-wrap.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 90vh;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    filter: brightness(60%);
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
 }
 .overlay {
     padding: 40px;
     border-radius: 10px;
     text-align: center;
     color: white;
-}
-.cta-btn {
-    background-color: #25D366;
-    color: white;
-    padding: 10px 20px;
-    display: inline-block;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 15px;
-    text-decoration: none;
 }

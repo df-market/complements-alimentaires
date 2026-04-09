@@ -86,16 +86,13 @@ h1 {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    filter: brightness(60%);
-    z-index: -1;
     top: 0;
     left: 0;
     width: 100%;
-    
 }
 .overlay {
     background-color: rgba(26, 72, 28, 0.8)
